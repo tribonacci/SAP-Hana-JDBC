@@ -1,7 +1,7 @@
 package test;
 /*
  * running Hana Queries in parallel
- * using java multithreding
+ * using java multithreading
  * Author: Vikash Singh
  */
 import java.sql.*;
