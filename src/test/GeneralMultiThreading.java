@@ -13,7 +13,7 @@ public class GeneralMultiThreading extends Thread
 
   int m_myId;
   //String array of queries
-  static String query[] = new String[] {};
+  static String query[] = new String[] {"select * from dummy;","select * from \"PUBLIC\".\"M_EXPENSIVE_STATEMENTS\";"};
   static  int c_nextId = 1;
   static  Connection s_conn = null;
   static  boolean   share_connection = false;

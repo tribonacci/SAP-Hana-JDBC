@@ -10,7 +10,7 @@ public class OneConnPerThread extends Thread
 	//One thread per query
 	  private static int NUM_OF_THREADS = 00;
 	  //String array of queries
-	  static String query[] = new String[] {};
+	  static String query[] = new String[] {"select * from dummy;","select * from \"PUBLIC\".\"M_EXPENSIVE_STATEMENTS\";"};
 	//Thread ID used for accessing array of queries as well
 	int tid;
 	static  int c_nextId = 0;
